@@ -1,0 +1,2 @@
+
+	global.roomName = "Aksarben Village";
