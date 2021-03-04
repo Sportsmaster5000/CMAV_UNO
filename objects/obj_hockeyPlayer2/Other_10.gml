@@ -12,4 +12,4 @@ if !(global.storySkateboardSaved)
 }
 
 
-dialogue_enter(_array, spr_portraitJim);
+dialogue_enter(_array, spr_portraitHockey);

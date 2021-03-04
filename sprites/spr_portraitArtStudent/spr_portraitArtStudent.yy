@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d52eae64-93fa-4dec-a1fe-d0cd13095c34","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d52eae64-93fa-4dec-a1fe-d0cd13095c34","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},"LayerId":{"name":"a09a87d0-ddcc-4834-a0cf-bb26b4b22202","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_portraitSophia","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},"resourceVersion":"1.0","name":"d52eae64-93fa-4dec-a1fe-d0cd13095c34","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"44c4ac6e-9bac-4c6e-9a21-6d3b42dfa870","path":"sprites/spr_portraitArtStudent/spr_portraitArtStudent.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"44c4ac6e-9bac-4c6e-9a21-6d3b42dfa870","path":"sprites/spr_portraitArtStudent/spr_portraitArtStudent.yy",},"LayerId":{"name":"e2e747fc-2be6-4d6a-b6d6-71af781a6de2","path":"sprites/spr_portraitArtStudent/spr_portraitArtStudent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_portraitArtStudent","path":"sprites/spr_portraitArtStudent/spr_portraitArtStudent.yy",},"resourceVersion":"1.0","name":"44c4ac6e-9bac-4c6e-9a21-6d3b42dfa870","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_portraitSophia","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},
+    "spriteId": {"name":"spr_portraitArtStudent","path":"sprites/spr_portraitArtStudent/spr_portraitArtStudent.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3fac85e5-b917-4b25-af1a-396f446dae15","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d52eae64-93fa-4dec-a1fe-d0cd13095c34","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d0a7a77d-b6e4-4132-bf4c-6e752544a784","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"44c4ac6e-9bac-4c6e-9a21-6d3b42dfa870","path":"sprites/spr_portraitArtStudent/spr_portraitArtStudent.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_portraitSophia","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},
+    "parent": {"name":"spr_portraitArtStudent","path":"sprites/spr_portraitArtStudent/spr_portraitArtStudent.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_portraitSophia",
+    "name": "spr_portraitArtStudent",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a09a87d0-ddcc-4834-a0cf-bb26b4b22202","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e2e747fc-2be6-4d6a-b6d6-71af781a6de2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "portraits",
     "path": "folders/Sprites/npcs/portraits.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_portraitSophia",
+  "name": "spr_portraitArtStudent",
   "tags": [],
   "resourceType": "GMSprite",
 }

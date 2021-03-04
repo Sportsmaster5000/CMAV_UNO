@@ -5,4 +5,4 @@ _array[0] = "Gotta practice for the big game!";
 
 // Inherit the parent event
 
-dialogue_enter(_array, spr_portraitJim);
+dialogue_enter(_array, spr_portraitHockey);

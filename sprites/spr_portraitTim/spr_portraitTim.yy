@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 149,
-  "bbox_top": 28,
+  "bbox_top": 22,
   "bbox_bottom": 149,
   "HTile": false,
   "VTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"166ba04b-af88-452f-828f-2f62f1179c9e","path":"sprites/spr_portaitKat/spr_portaitKat.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"166ba04b-af88-452f-828f-2f62f1179c9e","path":"sprites/spr_portaitKat/spr_portaitKat.yy",},"LayerId":{"name":"719874b9-ec4b-4694-9cd9-75d03ac40e3a","path":"sprites/spr_portaitKat/spr_portaitKat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_portaitKat","path":"sprites/spr_portaitKat/spr_portaitKat.yy",},"resourceVersion":"1.0","name":"166ba04b-af88-452f-828f-2f62f1179c9e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ab52ca83-5377-4377-8460-f6c45ab1467b","path":"sprites/spr_portraitTim/spr_portraitTim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ab52ca83-5377-4377-8460-f6c45ab1467b","path":"sprites/spr_portraitTim/spr_portraitTim.yy",},"LayerId":{"name":"f5c81c09-84e4-4f1e-8de6-a89c535615da","path":"sprites/spr_portraitTim/spr_portraitTim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_portraitTim","path":"sprites/spr_portraitTim/spr_portraitTim.yy",},"resourceVersion":"1.0","name":"ab52ca83-5377-4377-8460-f6c45ab1467b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_portaitKat","path":"sprites/spr_portaitKat/spr_portaitKat.yy",},
+    "spriteId": {"name":"spr_portraitTim","path":"sprites/spr_portraitTim/spr_portraitTim.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d5764843-93df-4f8d-8cef-31babe07ae49","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"166ba04b-af88-452f-828f-2f62f1179c9e","path":"sprites/spr_portaitKat/spr_portaitKat.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bd4edae2-b61c-4ad8-84ab-0f375367777a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ab52ca83-5377-4377-8460-f6c45ab1467b","path":"sprites/spr_portraitTim/spr_portraitTim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_portaitKat","path":"sprites/spr_portaitKat/spr_portaitKat.yy",},
+    "parent": {"name":"spr_portraitTim","path":"sprites/spr_portraitTim/spr_portraitTim.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_portaitKat",
+    "name": "spr_portraitTim",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"719874b9-ec4b-4694-9cd9-75d03ac40e3a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f5c81c09-84e4-4f1e-8de6-a89c535615da","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "portraits",
     "path": "folders/Sprites/npcs/portraits.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_portaitKat",
+  "name": "spr_portraitTim",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -8,8 +8,8 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 143,
-  "bbox_top": 9,
+  "bbox_right": 149,
+  "bbox_top": 28,
   "bbox_bottom": 149,
   "HTile": false,
   "VTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d52eae64-93fa-4dec-a1fe-d0cd13095c34","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d52eae64-93fa-4dec-a1fe-d0cd13095c34","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},"LayerId":{"name":"a09a87d0-ddcc-4834-a0cf-bb26b4b22202","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_portraitSophia","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},"resourceVersion":"1.0","name":"d52eae64-93fa-4dec-a1fe-d0cd13095c34","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a946ea7b-6619-48d0-abb6-6dc594283446","path":"sprites/spr_portraitHockey/spr_portraitHockey.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a946ea7b-6619-48d0-abb6-6dc594283446","path":"sprites/spr_portraitHockey/spr_portraitHockey.yy",},"LayerId":{"name":"fa239032-9c71-40f3-84ff-60c6fcb47d84","path":"sprites/spr_portraitHockey/spr_portraitHockey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_portraitHockey","path":"sprites/spr_portraitHockey/spr_portraitHockey.yy",},"resourceVersion":"1.0","name":"a946ea7b-6619-48d0-abb6-6dc594283446","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_portraitSophia","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},
+    "spriteId": {"name":"spr_portraitHockey","path":"sprites/spr_portraitHockey/spr_portraitHockey.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3fac85e5-b917-4b25-af1a-396f446dae15","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d52eae64-93fa-4dec-a1fe-d0cd13095c34","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1feccf08-b8dd-4958-a9ab-b0eeeeb52454","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a946ea7b-6619-48d0-abb6-6dc594283446","path":"sprites/spr_portraitHockey/spr_portraitHockey.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_portraitSophia","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},
+    "parent": {"name":"spr_portraitHockey","path":"sprites/spr_portraitHockey/spr_portraitHockey.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_portraitSophia",
+    "name": "spr_portraitHockey",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a09a87d0-ddcc-4834-a0cf-bb26b4b22202","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fa239032-9c71-40f3-84ff-60c6fcb47d84","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "portraits",
     "path": "folders/Sprites/npcs/portraits.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_portraitSophia",
+  "name": "spr_portraitHockey",
   "tags": [],
   "resourceType": "GMSprite",
 }

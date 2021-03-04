@@ -10,5 +10,5 @@ if (global.storySophie1) && !(global.storySophieBrushesSaved)
 }
 
 // Inherit the parent event
-dialogue_enter(_array, spr_portraitSophia);
+dialogue_enter(_array, spr_portraitArtStudent);
 

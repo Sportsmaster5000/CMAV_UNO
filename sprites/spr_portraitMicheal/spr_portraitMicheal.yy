@@ -7,14 +7,14 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 10,
-  "bbox_right": 125,
-  "bbox_top": 0,
-  "bbox_bottom": 140,
+  "bbox_left": 9,
+  "bbox_right": 139,
+  "bbox_top": 24,
+  "bbox_bottom": 149,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 140,
+  "width": 150,
   "height": 150,
   "textureGroupId": {
     "name": "Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9ec4868d-03d3-4fd9-bffd-1d33c85d0112","path":"sprites/spr_portraitMicheal/spr_portraitMicheal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9ec4868d-03d3-4fd9-bffd-1d33c85d0112","path":"sprites/spr_portraitMicheal/spr_portraitMicheal.yy",},"LayerId":{"name":"b83a04bd-b64b-485c-accc-b2881f8e1e96","path":"sprites/spr_portraitMicheal/spr_portraitMicheal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_portraitMicheal","path":"sprites/spr_portraitMicheal/spr_portraitMicheal.yy",},"resourceVersion":"1.0","name":"9ec4868d-03d3-4fd9-bffd-1d33c85d0112","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8c98a5c7-fbe7-4b07-a4af-dad276a4f9f9","path":"sprites/spr_portraitMicheal/spr_portraitMicheal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8c98a5c7-fbe7-4b07-a4af-dad276a4f9f9","path":"sprites/spr_portraitMicheal/spr_portraitMicheal.yy",},"LayerId":{"name":"79827fd6-132c-4c0e-a8c3-d8933d2b470d","path":"sprites/spr_portraitMicheal/spr_portraitMicheal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_portraitMicheal","path":"sprites/spr_portraitMicheal/spr_portraitMicheal.yy",},"resourceVersion":"1.0","name":"8c98a5c7-fbe7-4b07-a4af-dad276a4f9f9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_portraitMicheal","path":"sprites/spr_portraitMicheal/spr_portraitMicheal.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e2b7dfd8-d494-4f08-9c27-f48d917ec860","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9ec4868d-03d3-4fd9-bffd-1d33c85d0112","path":"sprites/spr_portraitMicheal/spr_portraitMicheal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ff51fe5a-e06e-434b-b410-00a73130f45e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8c98a5c7-fbe7-4b07-a4af-dad276a4f9f9","path":"sprites/spr_portraitMicheal/spr_portraitMicheal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b83a04bd-b64b-485c-accc-b2881f8e1e96","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"79827fd6-132c-4c0e-a8c3-d8933d2b470d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "portraits",

@@ -8,8 +8,8 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 143,
-  "bbox_top": 9,
+  "bbox_right": 149,
+  "bbox_top": 28,
   "bbox_bottom": 149,
   "HTile": false,
   "VTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d52eae64-93fa-4dec-a1fe-d0cd13095c34","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d52eae64-93fa-4dec-a1fe-d0cd13095c34","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},"LayerId":{"name":"a09a87d0-ddcc-4834-a0cf-bb26b4b22202","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_portraitSophia","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},"resourceVersion":"1.0","name":"d52eae64-93fa-4dec-a1fe-d0cd13095c34","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"166ba04b-af88-452f-828f-2f62f1179c9e","path":"sprites/spr_portraitKat/spr_portraitKat.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"166ba04b-af88-452f-828f-2f62f1179c9e","path":"sprites/spr_portraitKat/spr_portraitKat.yy",},"LayerId":{"name":"719874b9-ec4b-4694-9cd9-75d03ac40e3a","path":"sprites/spr_portraitKat/spr_portraitKat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_portraitKat","path":"sprites/spr_portraitKat/spr_portraitKat.yy",},"resourceVersion":"1.0","name":"166ba04b-af88-452f-828f-2f62f1179c9e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_portraitSophia","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},
+    "spriteId": {"name":"spr_portraitKat","path":"sprites/spr_portraitKat/spr_portraitKat.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3fac85e5-b917-4b25-af1a-396f446dae15","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d52eae64-93fa-4dec-a1fe-d0cd13095c34","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d5764843-93df-4f8d-8cef-31babe07ae49","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"166ba04b-af88-452f-828f-2f62f1179c9e","path":"sprites/spr_portraitKat/spr_portraitKat.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_portraitSophia","path":"sprites/spr_portraitSophia/spr_portraitSophia.yy",},
+    "parent": {"name":"spr_portraitKat","path":"sprites/spr_portraitKat/spr_portraitKat.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_portraitSophia",
+    "name": "spr_portraitKat",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a09a87d0-ddcc-4834-a0cf-bb26b4b22202","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"719874b9-ec4b-4694-9cd9-75d03ac40e3a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "portraits",
     "path": "folders/Sprites/npcs/portraits.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_portraitSophia",
+  "name": "spr_portraitKat",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -35,4 +35,4 @@ else
 
 // Inherit the parent event
 
-dialogue_enter(_array, spr_portraitJim);
+dialogue_enter(_array, spr_portraitKat);
