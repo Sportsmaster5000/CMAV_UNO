@@ -18,3 +18,7 @@ if (!instance_exists(obj_camera))
 fade = 1;
 fadeIn = true;
 fadeTime = game_get_speed(gamespeed_fps);
+
+//Places the player character at their spawn point.
+x = global.playerSpawnX;
+y = global.playerSpawnY;
