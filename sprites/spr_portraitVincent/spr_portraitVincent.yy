@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 29,
-  "bbox_right": 132,
-  "bbox_top": 18,
+  "bbox_left": 6,
+  "bbox_right": 136,
+  "bbox_top": 0,
   "bbox_bottom": 149,
   "HTile": false,
   "VTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b66d477f-d2bc-4b4a-90fe-9b69e0e3eaff","path":"sprites/spr_portraitFalk/spr_portraitFalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b66d477f-d2bc-4b4a-90fe-9b69e0e3eaff","path":"sprites/spr_portraitFalk/spr_portraitFalk.yy",},"LayerId":{"name":"376764a3-9a6a-4d0a-9f12-9495d484c75d","path":"sprites/spr_portraitFalk/spr_portraitFalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_portraitFalk","path":"sprites/spr_portraitFalk/spr_portraitFalk.yy",},"resourceVersion":"1.0","name":"b66d477f-d2bc-4b4a-90fe-9b69e0e3eaff","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"66034a69-cd94-4139-b374-401733499868","path":"sprites/spr_portraitVincent/spr_portraitVincent.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"66034a69-cd94-4139-b374-401733499868","path":"sprites/spr_portraitVincent/spr_portraitVincent.yy",},"LayerId":{"name":"10e13b91-6c9f-43e3-9792-b869e52fa17f","path":"sprites/spr_portraitVincent/spr_portraitVincent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_portraitVincent","path":"sprites/spr_portraitVincent/spr_portraitVincent.yy",},"resourceVersion":"1.0","name":"66034a69-cd94-4139-b374-401733499868","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_portraitFalk","path":"sprites/spr_portraitFalk/spr_portraitFalk.yy",},
+    "spriteId": {"name":"spr_portraitVincent","path":"sprites/spr_portraitVincent/spr_portraitVincent.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c3f1ee5c-99c9-4a03-9c25-d8eb00174653","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b66d477f-d2bc-4b4a-90fe-9b69e0e3eaff","path":"sprites/spr_portraitFalk/spr_portraitFalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ce493b39-340c-4285-bdc6-0df763ee6c68","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"66034a69-cd94-4139-b374-401733499868","path":"sprites/spr_portraitVincent/spr_portraitVincent.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_portraitFalk","path":"sprites/spr_portraitFalk/spr_portraitFalk.yy",},
+    "parent": {"name":"spr_portraitVincent","path":"sprites/spr_portraitVincent/spr_portraitVincent.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_portraitFalk",
+    "name": "spr_portraitVincent",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"376764a3-9a6a-4d0a-9f12-9495d484c75d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"10e13b91-6c9f-43e3-9792-b869e52fa17f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "portraits",
     "path": "folders/Sprites/npcs/portraits.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_portraitFalk",
+  "name": "spr_portraitVincent",
   "tags": [],
   "resourceType": "GMSprite",
 }

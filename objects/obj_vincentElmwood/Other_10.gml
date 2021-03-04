@@ -43,4 +43,4 @@ if (!global.storyVincent4)
 	}
 }
 
-dialogue_enter(_array, spr_portraitMicheal)
+dialogue_enter(_array, spr_portraitVincent)

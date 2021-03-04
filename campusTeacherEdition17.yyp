@@ -143,6 +143,7 @@
     {"id":{"name":"npc","path":"scripts/npc/npc.yy",},"order":2,},
     {"id":{"name":"spr_portraitJim","path":"sprites/spr_portraitJim/spr_portraitJim.yy",},"order":0,},
     {"id":{"name":"hockeyPlayer","path":"scripts/hockeyPlayer/hockeyPlayer.yy",},"order":2,},
+    {"id":{"name":"spr_portraitVincent","path":"sprites/spr_portraitVincent/spr_portraitVincent.yy",},"order":9,},
     {"id":{"name":"pilot_create","path":"scripts/pilot_create/pilot_create.yy",},"order":0,},
     {"id":{"name":"pilot_passive","path":"scripts/pilot_passive/pilot_passive.yy",},"order":1,},
     {"id":{"name":"pilot_animate","path":"scripts/pilot_animate/pilot_animate.yy",},"order":2,},
