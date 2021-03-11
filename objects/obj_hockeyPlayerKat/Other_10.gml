@@ -15,6 +15,7 @@ else
 {
 	var _array;
 	_array[0] = "Thanks you so much. I don't know what I would have done without my precious furballs.";
+	obj_hockeyPlayerKat.sprite_index = spr_hockeyKat;
 	
 	if !(global.storyCatsComplete)
 	{
