@@ -71,6 +71,7 @@
     {"id":{"name":"spr_portraitFalk","path":"sprites/spr_portraitFalk/spr_portraitFalk.yy",},"order":3,},
     {"id":{"name":"spr_hockeyDamageB","path":"sprites/spr_hockeyDamageB/spr_hockeyDamageB.yy",},"order":10,},
     {"id":{"name":"spr_hockeyDamageG","path":"sprites/spr_hockeyDamageG/spr_hockeyDamageG.yy",},"order":11,},
+    {"id":{"name":"spr_golfCart","path":"sprites/spr_golfCart/spr_golfCart.yy",},"order":7,},
     {"id":{"name":"spr_hockeyRunO","path":"sprites/spr_hockeyRunO/spr_hockeyRunO.yy",},"order":12,},
     {"id":{"name":"spr_hockeyRunR","path":"sprites/spr_hockeyRunR/spr_hockeyRunR.yy",},"order":13,},
     {"id":{"name":"spr_sunAndMoon","path":"sprites/spr_sunAndMoon/spr_sunAndMoon.yy",},"order":10,},
