@@ -5,10 +5,7 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "spr_HockeyIdleB",
-    "path": "sprites/spr_HockeyIdleB/spr_HockeyIdleB.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
     "name": "abs_talker",
@@ -33,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Kat",
-    "path": "folders/Objects/npc/Kat.yy",
+    "name": "npc",
+    "path": "folders/Objects/npc.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_hockeyPlayerKat",

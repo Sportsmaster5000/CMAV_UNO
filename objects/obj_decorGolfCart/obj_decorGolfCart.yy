@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "",
-    "path": "",
+    "name": "spr_golfCart",
+    "path": "sprites/spr_golfCart/spr_golfCart.yy",
   },
   "solid": false,
   "visible": true,

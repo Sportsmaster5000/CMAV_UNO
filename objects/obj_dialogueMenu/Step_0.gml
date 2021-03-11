@@ -1,27 +1,21 @@
 /// @description Listens for player controls, processes array contents.
 
-//progresses through dialogue.
-if (CONTINUE_BUTTON_RELEASED) || (DOWN_BUTTON_RELEASED) || (RIGHT_BUTTON_RELEASED)
+//If there is a dialogue choice active waits till the player inputs a choice.
+if (array_length(options) == 0)
 {
-	index++;
-	dialogue_check_line();
+	dialogue_menu_step();
 }
-
-//allows player to go back in dialogue.
-if (UP_BUTTON_RELEASED) || (LEFT_BUTTON_RELEASED)
+else
 {
-	if (index > 0)
+	menu_step();
+	
+	if (CONTINUE_BUTTON_RELEASED)
 	{
-		dialogue_reverse()
-	}
-}
-
-//You can just skip dialogue if you press escape.
-if (keyboard_check_released(vk_escape))
-{
-	while (index < array_length(dialogueArray))
-	{
-		index++;
+		index = options[optionSelected].index;
+		
+		//Resets the menu variables.
+		options = array_create(0, 0);
+		menu_create(options);
 		dialogue_check_line();
 	}
 }
