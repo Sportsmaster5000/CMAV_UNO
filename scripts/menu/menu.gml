@@ -1,3 +1,36 @@
+/// @function menu_create(array)
+/// @description initializes menu variables.
+/// @param _array an array of strings to use as menu options.
+function menu_create(_array) 
+{
+	options = _array;
+	optionSelected = 0;
+}
+
+///@function menu_step()
+///@description Step event for menu objects.
+function menu_step()
+{
+	var _arraySize = array_length_1d(options);
+
+	optionSelected += DOWN_BUTTON_PRESSED - UP_BUTTON_PRESSED;
+
+
+
+	//If option goes beyond bounds of array loops to other side.
+	if (optionSelected < 0)
+	{
+		optionSelected = _arraySize - 1;
+	}
+
+	if (optionSelected >= _arraySize)
+	{
+		optionSelected = 0;
+	}
+}
+
+
+
 /// @function menu_draw(x, y, array, color1, color2, height, select)
 /// @description Draws a menu from the given array.
 /// @param x x coordinate to draw the menu at.
@@ -57,18 +90,6 @@ function menu_draw_horizontal(_x, _y, _array, _color1, _color2, _width, _select)
 	    draw_set_colour(_color1);
 	}
 }
-
-
-
-/// @function menu_create(array)
-/// @description initializes menu variables.
-/// @param _array an array of strings to use as menu options.
-function menu_create(_array) 
-{
-	options = _array;
-	optionSelected = 0;
-}
-
 
 
 /// @function pause_menu_draw_gui()

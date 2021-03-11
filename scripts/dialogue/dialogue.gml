@@ -19,7 +19,45 @@ function dialogue_menu_create(_dialogueArray, _portrait)
 	index = 0;
 	dialogue_check_line();
 	portrait = _portrait;
+	
+	//This should normally be 0.
+	var _options = array_create(0, 0);
+	
+	menu_create(_options);
 }
+
+
+/// @function dialogue_menu_step()
+/// @description Step event code for dialogue menu object.
+function dialogue_menu_step()
+{
+	//progresses through dialogue.
+	if (CONTINUE_BUTTON_RELEASED) || (DOWN_BUTTON_RELEASED) || (RIGHT_BUTTON_RELEASED)
+	{
+		index++;
+		dialogue_check_line();
+	}
+
+	//allows player to go back in dialogue.
+	if (UP_BUTTON_RELEASED) || (LEFT_BUTTON_RELEASED)
+	{
+		if (index > 0)
+		{
+			dialogue_reverse()
+		}
+	}
+
+	//You can just skip dialogue if you press escape.
+	if (keyboard_check_released(vk_escape))
+	{
+		while (index < array_length(dialogueArray))
+		{
+			index++;
+			dialogue_check_line();
+		}
+	}
+}
+
 
 /// @function dialogue_check_line()
 /// @description Checks the given line of dialogue. Perfoms actions based on that. Recurses for some items.
@@ -34,11 +72,12 @@ function dialogue_check_line()
 		return;
 	}
 	
-	
+	//If the dialogue item starts with a '%', goes to the prefix subroutine.
 	if (string_char_at(dialogueArray[index], 0) == "%")
 	{
 		dialogue_check_prefix(dialogueArray[index])
 	}
+	//Otherwise reads it into the text variable.
 	else
 	{
 		text = dialogueArray[index]
@@ -152,21 +191,39 @@ function dialogue_prefix_choice(_string)
 	
 	var _menuArray = array_create(0, 0);
 	
-	//Gives it an array of dialogue choice.
-	with (_menuObject)
+	//Removes the prefix from the string.
+	_string = string_delete(_string, 1,  string_pos(" ", _string));
+	
+	while (_string != "")
 	{
-		menu_create(_menuArray);
+		var _subString = string_copy(_string, 1, string_pos("]", _string));
+		var _title = string_copy(_subString, 2, string_pos("&", _string) - 2);
+		
+		var _index = string_delete(_subString, 1, string_pos("&", _string));
+		_index = string_digits(_index);
+		_index = real(_index);
+		
+		var _newChoice = new Choice(_title, _index);
+		
+		array_push(_menuArray, _newChoice);
+		
+		
+		_string = string_delete(_string, 1, string_pos("]", _string));
 	}
+	
+	//Sets the options array to be filled with choices.
+	options = _menuArray;
+	
 }
 
 /// @function dialogue_choice(_title, _string) constructor 
 /// @description Constructor for dialogue choice struct.
 /// @param _title title for the dialogue struct. What the player sees the menu option labelled as.
-/// @param _string Dialogue string fed back into the dialogue menu object. What the dialogue menu actually does when the option is selected.
-function dialogue_choice(_title, _string) constructor 
+/// @param _index The index in the dialogue array to send the player to when they select this choice.
+function Choice(_title, _index) constructor 
 {
 	title = _title;
-	string = _string;
+	index = _index;
 }
 
 /// @function dialogue_menu_draw_gui()
@@ -193,6 +250,8 @@ function dialogue_menu_draw_gui()
 		_fullText = text + "...(" + string(index + 1) + "/" + string(array_length(dialogueArray)) + ")";
 	}
 	*/
+	
+	draw_set_halign(fa_left);
 	draw_text_ext_color((_margin * 2) +  _portraitWidth, room_height * 0.75, _fullText, _stringHeight, room_width - (_margin * 4) - _portraitWidth, c_black, c_black, c_black, c_black, 1);
 
 	//Draw portrait.
