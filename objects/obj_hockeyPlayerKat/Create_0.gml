@@ -1,4 +1,4 @@
-/// @description Overwrites parent.
+/// @description Overwrites parent
 var _text = "Make sure you get enough protein!";
 
 
