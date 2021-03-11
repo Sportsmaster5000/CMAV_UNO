@@ -141,7 +141,7 @@
     {"id":{"name":"menu","path":"scripts/menu/menu.yy",},"order":7,},
     {"id":{"name":"spr_moveIconAksarben","path":"sprites/spr_moveIconAksarben/spr_moveIconAksarben.yy",},"order":2,},
     {"id":{"name":"view","path":"scripts/view/view.yy",},"order":14,},
-    {"id":{"name":"obj_hockeyPlayerCat","path":"objects/obj_hockeyPlayerCat/obj_hockeyPlayerCat.yy",},"order":11,},
+    {"id":{"name":"obj_hockeyPlayerCat","path":"objects/obj_hockeyPlayerCat/obj_hockeyPlayerCat.yy",},"order":13,},
     {"id":{"name":"npc","path":"scripts/npc/npc.yy",},"order":2,},
     {"id":{"name":"spr_portraitJim","path":"sprites/spr_portraitJim/spr_portraitJim.yy",},"order":0,},
     {"id":{"name":"hockeyPlayer","path":"scripts/hockeyPlayer/hockeyPlayer.yy",},"order":2,},
