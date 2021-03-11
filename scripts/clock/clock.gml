@@ -1,5 +1,5 @@
 /// @function clock_step()
-/// @description increments clock time.
+/// @description increments clock time
 function clock_step() 
 {
 

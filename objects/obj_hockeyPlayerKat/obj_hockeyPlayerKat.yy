@@ -5,11 +5,14 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_HockeyIdleB",
+    "path": "sprites/spr_HockeyIdleB/spr_HockeyIdleB.yy",
+  },
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_hockeyPlayer",
-    "path": "objects/obj_hockeyPlayer/obj_hockeyPlayer.yy",
+    "name": "abs_talker",
+    "path": "objects/abs_talker/abs_talker.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,8 +27,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_hockeyPlayerCat","path":"objects/obj_hockeyPlayerCat/obj_hockeyPlayerCat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_hockeyPlayerCat","path":"objects/obj_hockeyPlayerCat/obj_hockeyPlayerCat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_hockeyPlayerKat","path":"objects/obj_hockeyPlayerKat/obj_hockeyPlayerKat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_hockeyPlayerKat","path":"objects/obj_hockeyPlayerKat/obj_hockeyPlayerKat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +37,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_hockeyPlayerCat",
+  "name": "obj_hockeyPlayerKat",
   "tags": [],
   "resourceType": "GMObject",
 }
