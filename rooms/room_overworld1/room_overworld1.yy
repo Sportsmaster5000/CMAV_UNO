@@ -16,6 +16,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5184.0,"y":576.0,"resourceVersion":"1.0","name":"inst_2CA53CE8","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":320.0,"resourceVersion":"1.0","name":"inst_2AC24C52","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_alligator","path":"objects/obj_alligator/obj_alligator.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3520.0,"y":2144.0,"resourceVersion":"1.0","name":"inst_32DF5D16","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"side_covers","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"bg_overworld1FG","path":"sprites/bg_overworld1FG/bg_overworld1FG.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"FG","tags":[],"resourceType":"GMRBackgroundLayer",},
     {"instances":[
@@ -161,6 +162,7 @@
     {"name":"inst_C5A50A9","path":"rooms/room_overworld1/room_overworld1.yy",},
     {"name":"inst_2CA53CE8","path":"rooms/room_overworld1/room_overworld1.yy",},
     {"name":"inst_2AC24C52","path":"rooms/room_overworld1/room_overworld1.yy",},
+    {"name":"inst_32DF5D16","path":"rooms/room_overworld1/room_overworld1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
