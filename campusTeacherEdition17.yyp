@@ -207,6 +207,7 @@
     {"id":{"name":"obj_rainbowMessage","path":"objects/obj_rainbowMessage/obj_rainbowMessage.yy",},"order":1,},
     {"id":{"name":"obj_hpBooster","path":"objects/obj_hpBooster/obj_hpBooster.yy",},"order":0,},
     {"id":{"name":"obj_skateboard","path":"objects/obj_skateboard/obj_skateboard.yy",},"order":1,},
+    {"id":{"name":"ranged","path":"scripts/ranged/ranged.yy",},"order":4,},
     {"id":{"name":"obj_brushes","path":"objects/obj_brushes/obj_brushes.yy",},"order":2,},
     {"id":{"name":"obj_interactableTransition","path":"objects/obj_interactableTransition/obj_interactableTransition.yy",},"order":3,},
     {"id":{"name":"interactable","path":"scripts/interactable/interactable.yy",},"order":15,},

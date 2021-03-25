@@ -18,6 +18,16 @@ switch(target)
 	break;
 }
 
+//State machine. Turn to switch statement if I add more states.
+if (state == pilotStates.run)
+{
+	///If the hockey player is grounded and not moving, makes them take a step.
+	if grounded
+	{
+		hsp = facing * accel;	
+	}
+}
+
 //animates
 pilot_animate();
 
