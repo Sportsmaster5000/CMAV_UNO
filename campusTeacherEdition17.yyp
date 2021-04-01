@@ -145,7 +145,7 @@
     {"id":{"name":"spr_gatorRun","path":"sprites/spr_gatorRun/spr_gatorRun.yy",},"order":1,},
     {"id":{"name":"spr_moveIconAksarben","path":"sprites/spr_moveIconAksarben/spr_moveIconAksarben.yy",},"order":2,},
     {"id":{"name":"view","path":"scripts/view/view.yy",},"order":14,},
-    {"id":{"name":"obj_hockeyPlayerCat","path":"objects/obj_hockeyPlayerCat/obj_hockeyPlayerCat.yy",},"order":13,},
+    {"id":{"name":"obj_hockeyPlayerKat","path":"objects/obj_hockeyPlayerKat/obj_hockeyPlayerKat.yy",},"order":13,},
     {"id":{"name":"npc","path":"scripts/npc/npc.yy",},"order":2,},
     {"id":{"name":"spr_portraitJim","path":"sprites/spr_portraitJim/spr_portraitJim.yy",},"order":0,},
     {"id":{"name":"hockeyPlayer","path":"scripts/hockeyPlayer/hockeyPlayer.yy",},"order":2,},
