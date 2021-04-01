@@ -1,13 +1,13 @@
-/// @function pilot_animate()
+/// @function ranged_animate()
 /// @description animates pilot npcs.
-function pilot_animate() {
-
+function ranged_animate() 
+{
 	switch (state)
 	{
-		case(pilotStates.run):
+		case(rangedStates.run):
 			sprite_index = spriteRun;	
 		break;
-		case(pilotStates.shoot):
+		case(rangedStates.shoot):
 			sprite_index = spriteAttack;
 		break;
 		default:
@@ -19,10 +19,10 @@ function pilot_animate() {
 }
 
 
-/// @function pilot_aggressive(target)
-/// @description makes the pilot attack the target.
+/// @function ranged_aggressive(target)
+/// @description makes this character attack the target.
 /// @param target The target for the attack.
-function pilot_aggressive(argument0) {
+function ranged_aggressive(argument0) {
 
 	var _target = argument0;
 	var _direction = sign(_target.x - x);
@@ -38,7 +38,7 @@ function pilot_aggressive(argument0) {
 	if (_distance < CLOSE_RANGE)
 	{
 		facing = -_direction;
-		state = pilotStates.run;
+		state = rangedStates.run;
 	} 
 	//If within range fires a projectile.
 	else if (_distance < LONG_RANGE)
@@ -46,10 +46,10 @@ function pilot_aggressive(argument0) {
 		facing = _direction;
 		if (attackTimer <= 0)
 		{
-			state = pilotStates.shoot;
+			state = rangedStates.shoot;
 			attackTimer = attackTime;
 		
-			var _missile = instance_create_layer(x + (facing * 8), y, layer, obj_pilotMissile)
+			var _missile = instance_create_layer(x + (facing * 8), y, layer, bullet)
 			var _facing = facing;
 			var _alignment = alignment;
 			with (_missile)
@@ -59,22 +59,22 @@ function pilot_aggressive(argument0) {
 				image_xscale = _facing;
 			}
 		}
-		else
+		else if (attackTimer < attackTime - 10)
 		{
-			state = pilotStates.idle;	
+			state = rangedStates.idle;	
 		}
 	}
 	//If outside of range reverts to passive behavior.
 	else
 	{
-		pilot_passive()	
+		ranged_passive()	
 	}
 
 }
 
-/// @function pilot_passive()
+/// @function ranged_passive()
 /// @description makes this NPC move around a little.
-function pilot_passive() {
+function ranged_passive() {
 
 	if (passiveTimer > 0)
 	{
@@ -87,25 +87,27 @@ function pilot_passive() {
 		facing = -facing;
 		passiveTimer = passiveTime;
 	
-		state = choose(pilotStates.idle, pilotStates.run);
+		state = choose(rangedStates.idle, rangedStates.run);
 	}
 }
 
-/// @function pilot_create(idleSprite, damageSprite, runSprite, attackSprite);
-/// @description Initializes a pilot NPC.
+/// @function ranged_initialize(idleSprite, damageSprite, runSprite, attackSprite);
+/// @description Initializes an npc capable of using ranged attacks
 /// @param {sprite} idleSprite idle sprite.
 /// @param {sprite} damageSprite damage sprite.
 /// @param {sprite} runSprite run sprite.
 /// @param {sprite} attackSprite attack sprite.
-function pilot_create(argument0, argument1, argument2, argument3) {
+/// @param {object} _bullet Object being fired.
+function ranged_initialize(_spriteIdle, _spriteDamage, _spriteRun, _spriteAttack, _bullet) {
 
-	spriteIdle = argument0;
-	spriteDamage = argument1;
-	spriteRun = argument2;
-	spriteAttack = argument3;
+	spriteIdle = _spriteIdle;
+	spriteDamage = _spriteDamage;
+	spriteRun = _spriteRun;
+	spriteAttack = _spriteAttack;
+	bullet = _bullet;
 
 	//What action this npc is currently performing.
-	state = pilotStates.idle; 
+	state = rangedStates.idle; 
 
 	//How fast the hockeyplayer accelerates and how fast they can get.
 	accel =4;

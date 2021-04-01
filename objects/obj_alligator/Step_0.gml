@@ -11,15 +11,15 @@ if (target != PLAYER) && (alignment == faction.enemy)
 switch(target)
 {
 	case(noone):
-		pilot_passive();
+		ranged_passive();
 	break;
 	default:
-		pilot_aggressive(target);
+		ranged_aggressive(target);
 	break;
 }
 
 //State machine. Turn to switch statement if I add more states.
-if (state == pilotStates.run)
+if (state == rangedStates.run)
 {
 	///If the hockey player is grounded and not moving, makes them take a step.
 	if grounded
@@ -29,7 +29,7 @@ if (state == pilotStates.run)
 }
 
 //animates
-pilot_animate();
+ranged_animate();
 
 
 

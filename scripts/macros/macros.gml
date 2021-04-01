@@ -133,7 +133,7 @@ enum hockeyPlayerStates
 }
 
 //Hockey player.
-enum pilotStates
+enum rangedStates
 {
 	idle, shoot, run	
 }

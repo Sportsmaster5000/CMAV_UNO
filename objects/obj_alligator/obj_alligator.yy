@@ -34,8 +34,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "alliator",
-    "path": "folders/Objects/npc/alliator.yy",
+    "name": "alligator",
+    "path": "folders/Objects/npc/alligator.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_alligator",
