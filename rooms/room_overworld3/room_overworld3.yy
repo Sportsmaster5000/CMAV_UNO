@@ -16,6 +16,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5376.0,"y":1152.0,"resourceVersion":"1.0","name":"inst_B060047","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":544.0,"resourceVersion":"1.0","name":"inst_17A9F06C","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_hockeyPlayerKat","path":"objects/obj_hockeyPlayerKat/obj_hockeyPlayerKat.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7552.0,"y":1952.0,"resourceVersion":"1.0","name":"inst_52E7A339","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"side_covers","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"bg_overworld3FG","path":"sprites/bg_overworld3FG/bg_overworld3FG.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":true,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"FG","tags":[],"resourceType":"GMRBackgroundLayer",},
     {"instances":[
@@ -116,6 +117,7 @@
     {"name":"inst_440BA987","path":"rooms/room_overworld3/room_overworld3.yy",},
     {"name":"inst_B060047","path":"rooms/room_overworld3/room_overworld3.yy",},
     {"name":"inst_17A9F06C","path":"rooms/room_overworld3/room_overworld3.yy",},
+    {"name":"inst_52E7A339","path":"rooms/room_overworld3/room_overworld3.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
