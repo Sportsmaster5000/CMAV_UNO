@@ -92,9 +92,27 @@ function menu_draw_horizontal(_x, _y, _array, _color1, _color2, _width, _select)
 }
 
 
-/// @function pause_menu_draw_gui()
+/// @function pause_menu_controls_draw_gui()
 /// @description draws HP, SP, and the game time.
-function pause_menu_draw_gui() 
+function pause_menu_controls_draw_gui() 
+{
+	show_debug_message("X: " + string(mouse_x) + "Y: " + string(mouse_y));
+	
+	//Left column
+	draw_set_halign(fa_left);
+
+	//Stats
+	draw_text(260, 110, "Controls");
+	draw_text(260, 130, "Movement: Arrow Keys or WA");
+	draw_text(260, 150, "Jump: Spacebar");
+	draw_text(260, 170, "Melee: Z");
+	draw_text(260, 190, "Ranged Attack: X");
+	draw_text(260, 210, "Talk with NPCs: C");
+}
+
+/// @function pause_menu_stats_draw_gui()
+/// @description draws HP, SP, and the game time.
+function pause_menu_stats_draw_gui() 
 {
 
 	var _minuteString;

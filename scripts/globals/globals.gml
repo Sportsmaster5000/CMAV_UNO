@@ -175,6 +175,6 @@ function globals()
 	global.catsCollected = ds_list_create(); //Which cats were saved
 	
 	
-	//Phone menu state
-	global.phoneMenuState = phoneMenuStates.stats;
+	//Phone menu state. 0 = stats, 1 = controls, 2 = quests
+	global.phoneMenuState = 0;
 }

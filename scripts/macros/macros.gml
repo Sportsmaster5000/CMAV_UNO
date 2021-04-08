@@ -143,8 +143,3 @@ enum grades
 {
 	A, B, C, D, F	
 }
-
-enum phoneMenuStates
-{
-	stats, quests, controls
-}
