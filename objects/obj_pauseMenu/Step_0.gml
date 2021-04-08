@@ -3,3 +3,5 @@ if (START_BUTTON_RELEASED)
 {	
 	pause_exit();	
 }
+
+//Cycles through menu states.
