@@ -145,7 +145,6 @@
     {"id":{"name":"spr_gatorRun","path":"sprites/spr_gatorRun/spr_gatorRun.yy",},"order":1,},
     {"id":{"name":"spr_moveIconAksarben","path":"sprites/spr_moveIconAksarben/spr_moveIconAksarben.yy",},"order":2,},
     {"id":{"name":"view","path":"scripts/view/view.yy",},"order":14,},
-    {"id":{"name":"obj_hockeyPlayerKat","path":"objects/obj_hockeyPlayerKat/obj_hockeyPlayerKat.yy",},"order":13,},
     {"id":{"name":"npc","path":"scripts/npc/npc.yy",},"order":2,},
     {"id":{"name":"spr_portraitJim","path":"sprites/spr_portraitJim/spr_portraitJim.yy",},"order":0,},
     {"id":{"name":"hockeyPlayer","path":"scripts/hockeyPlayer/hockeyPlayer.yy",},"order":2,},
@@ -241,6 +240,7 @@
     {"id":{"name":"obj_drJimMiloBail","path":"objects/obj_drJimMiloBail/obj_drJimMiloBail.yy",},"order":2,},
     {"id":{"name":"obj_hockeyPlayer","path":"objects/obj_hockeyPlayer/obj_hockeyPlayer.yy",},"order":0,},
     {"id":{"name":"obj_hockeyPlayer1","path":"objects/obj_hockeyPlayer1/obj_hockeyPlayer1.yy",},"order":1,},
+    {"id":{"name":"room_gameOverMenu","path":"rooms/room_gameOverMenu/room_gameOverMenu.yy",},"order":8,},
     {"id":{"name":"obj_hockeyPlayer2","path":"objects/obj_hockeyPlayer2/obj_hockeyPlayer2.yy",},"order":2,},
     {"id":{"name":"obj_hockeyPlayer3","path":"objects/obj_hockeyPlayer3/obj_hockeyPlayer3.yy",},"order":3,},
     {"id":{"name":"bg_characterSelect","path":"sprites/bg_characterSelect/bg_characterSelect.yy",},"order":5,},
@@ -314,6 +314,7 @@
     {"roomId":{"name":"room_overworld3","path":"rooms/room_overworld3/room_overworld3.yy",},},
     {"roomId":{"name":"room_overworld4","path":"rooms/room_overworld4/room_overworld4.yy",},},
     {"roomId":{"name":"room_obstacleCourse","path":"rooms/room_obstacleCourse/room_obstacleCourse.yy",},},
+    {"roomId":{"name":"room_gameOverMenu","path":"rooms/room_gameOverMenu/room_gameOverMenu.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

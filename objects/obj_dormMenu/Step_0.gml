@@ -1,12 +1,14 @@
 /// @description Inherits, allows event selection.
 event_inherited();
 
+/*
 if (ANY_BUTTON_RELEASED)
 {
 	transition_board(xTo, yTo, roomTo);
 }
+*/
 
-/*
+
 if (FACE_BUTTON_RELEASED)
 {
 	switch	(optionSelected)
@@ -43,4 +45,3 @@ if (FACE_BUTTON_RELEASED)
 		
 	}
 }
-*/

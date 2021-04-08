@@ -93,7 +93,8 @@
 #macro Y_BUTTON_RELEASED (keyboard_check_released(ord("C")) || keyboard_check_released(ord("L")) ||  gamepad_button_check_released(0, gp_face4))
 #macro CONTINUE_BUTTON_RELEASED keyboard_check_released(vk_enter)
 #macro ANY_BUTTON_RELEASED keyboard_check_released(vk_anykey)
-#macro HIDDEN_MENU_BUTTON_RELEASED keyboard_check_released(ord("H"))
+#macro HIDDEN_MENU_BUTTON_RELEASED keyboard_check_released(ord("Q"))
+#macro CONTROLS_MENU_BUTTON_RELEASED keyboard_check_released(ord("H"))
 #macro FACE_BUTTON_RELEASED (A_BUTTON_RELEASED || B_BUTTON_RELEASED || X_BUTTON_RELEASED || Y_BUTTON_RELEASED) 
 
 
@@ -141,4 +142,9 @@ enum rangedStates
 enum grades
 {
 	A, B, C, D, F	
+}
+
+enum phoneMenuStates
+{
+	stats, quests, controls
 }

@@ -173,4 +173,8 @@ function globals()
 	global.cats = 0; //Number of cats saved
 	global.maxCats = 4; //How many cats you can collect
 	global.catsCollected = ds_list_create(); //Which cats were saved
+	
+	
+	//Phone menu state
+	global.phoneMenuState = 
 }
