@@ -102,12 +102,17 @@ function pause_menu_controls_draw_gui()
 	draw_set_halign(fa_left);
 
 	//Stats
-	draw_text(260, 110, "Controls");
-	draw_text(260, 130, "Movement: Arrow Keys or WA");
+	draw_text(260, 110, "Overworld Controls");
+	draw_text(260, 130, "Movement: Arrow Keys ");
 	draw_text(260, 150, "Jump: Spacebar");
 	draw_text(260, 170, "Melee: Z");
 	draw_text(260, 190, "Ranged Attack: X");
 	draw_text(260, 210, "Talk with NPCs: C");
+	
+	draw_text(260, 250, "Dialogue Controls");
+	draw_text(260, 270, "Progress Dialogue: Enter");
+	draw_text(260, 290, "Rewind: Left Arrow Key");
+	draw_text(260, 310, "Exit: Escape Button");
 }
 
 /// @function pause_menu_stats_draw_gui()

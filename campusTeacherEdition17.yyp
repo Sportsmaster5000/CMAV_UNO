@@ -58,7 +58,6 @@
     {"id":{"name":"room_overworld3","path":"rooms/room_overworld3/room_overworld3.yy",},"order":14,},
     {"id":{"name":"spr_gatorDead","path":"sprites/spr_gatorDead/spr_gatorDead.yy",},"order":3,},
     {"id":{"name":"spr_hockeyHitbox","path":"sprites/spr_hockeyHitbox/spr_hockeyHitbox.yy",},"order":1,},
-    {"id":{"name":"obj_hockeyPlayerKat","path":"objects/obj_hockeyPlayerKat/obj_hockeyPlayerKat.yy",},"order":11,},
     {"id":{"name":"room_miloBail","path":"rooms/room_miloBail/room_miloBail.yy",},"order":0,},
     {"id":{"name":"spr_hockeyIdleO","path":"sprites/spr_hockeyIdleO/spr_hockeyIdleO.yy",},"order":2,},
     {"id":{"name":"spr_hockeyIdleR","path":"sprites/spr_hockeyIdleR/spr_hockeyIdleR.yy",},"order":3,},
@@ -391,7 +390,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.556",
+    "IDEVersion": "2.3.1.542",
   },
   "resourceVersion": "1.4",
   "name": "campusTeacherEdition17",
