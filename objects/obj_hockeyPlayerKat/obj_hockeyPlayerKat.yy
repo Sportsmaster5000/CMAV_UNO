@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "kat",
+    "path": "folders/Objects/npc/kat.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_hockeyPlayerKat",
