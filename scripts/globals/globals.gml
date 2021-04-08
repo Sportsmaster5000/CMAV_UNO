@@ -176,5 +176,5 @@ function globals()
 	
 	
 	//Phone menu state
-	global.phoneMenuState = 
+	global.phoneMenuState = noone;
 }
