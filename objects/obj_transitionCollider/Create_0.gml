@@ -1,5 +1,5 @@
 /// @description initializes object variables. These should be set in creation code.
-transition_create(2400, 0, room_overworld1, "Dodge Campus");
+//transition_create(2400, 0, room_overworld1, "Dodge Campus");
 
 //These transitions also fadeOut.
 fade = 0; //How dark the screen has been made. 0 to 1.

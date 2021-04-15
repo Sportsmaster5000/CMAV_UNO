@@ -28,7 +28,7 @@ else
 		global.reputation += 10;
 		global.storyCatsComplete = true;
 		
-		
+		spriteIndex = spr_katComplete;
 	}
 	
 	
