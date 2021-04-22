@@ -6,4 +6,4 @@ _names[0] = "Clock Tower";
 
 cutscene_create(_images, _names, game_get_speed(gamespeed_fps) * 3);
 
-transition_create(2000, 50, room_overworld1);
+transition_create(2000, 50, room_overworld1, "");

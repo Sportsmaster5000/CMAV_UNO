@@ -6,7 +6,7 @@ menu_create(_array);
 
 
 //Also includes a room transition.
-transition_create(1040, 1200, room_startingCutscene);
+transition_create(1040, 1200, room_startingCutscene, "");
 
 //Sprite set currently being selected.
 spritesetIndex = 0;

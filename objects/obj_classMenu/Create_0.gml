@@ -13,4 +13,4 @@ prices = array_create(4, 200);
 menu_create(_array);
 
 //Also includes a room transition.
-transition_create(3000, 2000, room_overworld2);
+transition_create(3000, 2000, room_overworld2, "");

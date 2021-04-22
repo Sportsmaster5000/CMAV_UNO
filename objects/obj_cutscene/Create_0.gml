@@ -11,4 +11,4 @@ _names[0] = noone;
 cutscene_create(_images, _names, game_get_speed(gamespeed_fps) * 3);
 
 //Includes a transition too. Should be overwritten in instance creation code.
-transition_create(x, y, room_initialize);
+transition_create(x, y, room_initialize, "");
