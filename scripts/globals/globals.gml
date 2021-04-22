@@ -4,7 +4,7 @@ function globals()
 {
 	
 
-	//The current state the game is in. Used on boards where the player character can move around.
+	//The current state the game is in. Used on boards where the player character can move around
 	global.gameState = gameStates.play;
 	
 	
