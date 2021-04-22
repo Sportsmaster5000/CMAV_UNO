@@ -1,18 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_hockeyIdleO",
-    "path": "sprites/spr_hockeyIdleO/spr_hockeyIdleO.yy",
+    "name": "spr_HockeyIdleB",
+    "path": "sprites/spr_HockeyIdleB/spr_HockeyIdleB.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "spr_hockeyHitbox",
-    "path": "sprites/spr_hockeyHitbox/spr_hockeyHitbox.yy",
-  },
-  "persistent": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": {
-    "name": "abs_npc",
-    "path": "objects/abs_npc/abs_npc.yy",
+    "name": "obj_hockeyPlayer",
+    "path": "objects/obj_hockeyPlayer/obj_hockeyPlayer.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,17 +25,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "hockey player",
-    "path": "folders/Objects/npc/hockey player.yy",
+    "name": "kat",
+    "path": "folders/Objects/npc/kat.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_hockeyPlayer",
+  "name": "obj_hockeyPlayerKat",
   "tags": [],
   "resourceType": "GMObject",
 }

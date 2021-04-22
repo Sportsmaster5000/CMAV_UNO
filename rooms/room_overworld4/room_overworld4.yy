@@ -16,6 +16,8 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5152.0,"y":160.0,"resourceVersion":"1.0","name":"inst_68DD6B3E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":1216.0,"resourceVersion":"1.0","name":"inst_7AD5A742","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_sewerRunGuy","path":"objects/obj_sewerRunGuy/obj_sewerRunGuy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3424.0,"y":1728.0,"resourceVersion":"1.0","name":"inst_11B8602C","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_keys","path":"objects/obj_keys/obj_keys.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3808.0,"y":1728.0,"resourceVersion":"1.0","name":"inst_71E92CAC","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"side_covers","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"bg_overworld4FG","path":"sprites/bg_overworld4FG/bg_overworld4FG.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"FG","tags":[],"resourceType":"GMRBackgroundLayer",},
     {"instances":[
@@ -106,6 +108,8 @@
     {"name":"inst_415375F7","path":"rooms/room_overworld4/room_overworld4.yy",},
     {"name":"inst_68DD6B3E","path":"rooms/room_overworld4/room_overworld4.yy",},
     {"name":"inst_7AD5A742","path":"rooms/room_overworld4/room_overworld4.yy",},
+    {"name":"inst_11B8602C","path":"rooms/room_overworld4/room_overworld4.yy",},
+    {"name":"inst_71E92CAC","path":"rooms/room_overworld4/room_overworld4.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

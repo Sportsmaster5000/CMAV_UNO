@@ -178,9 +178,7 @@ function globals()
 	//Sewer run quest
 	global.storyKeysStart = false; //The player has talked to the hockey player
 	global.storyKeysComplete = false; //The player has returned the keys and completed the quest.
-	global.keys = 0; //Number of keys retreived
-	global.maxKeys = 1; //How many keys you can collect
-	global.keysCollected = ds_list_create(); //Which keys were retreived
+	global.storyKeysCollected = false; //Did the player collect the keys
 	
 	
 	//Phone menu state. 0 = stats, 1 = controls, 2 = quests
