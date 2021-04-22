@@ -1,7 +1,6 @@
 /// @description Inherits, defines transition variables. Should be overwritten in create.
 event_inherited();
 
-transition_create(x, y, room);
 
 //These transitions also fadeOut.
 fade = 0; //How dark the screen has been made. 0 to 1.

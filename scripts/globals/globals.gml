@@ -68,6 +68,7 @@ function globals()
 	//Where the player is spawned in the room.
 	global.playerSpawnX = 4200;
 	global.playerSpawnY = 2100;
+	global.roomTo = room_overworld1;
 	
 	//Variable that will hold name of current room. Reset in creation code of rooms with names.
 	global.roomName = "";

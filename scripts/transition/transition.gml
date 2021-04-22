@@ -26,9 +26,10 @@ function transition_board(_xTo, _yTo, _roomTo)
 	
 	global.playerSpawnX = _xTo;
 	global.playerSpawnY = _yTo;
+	global.roomTo = _roomTo;
 
 
-	room_goto(_roomTo)
+	room_goto(global.roomTo)
 
 
 }
