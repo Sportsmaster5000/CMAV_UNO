@@ -64,7 +64,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_prof","path":"sprites/spr_prof/spr_prof.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_prof",
     "tags": [],
     "resourceType": "GMSequence",
   },

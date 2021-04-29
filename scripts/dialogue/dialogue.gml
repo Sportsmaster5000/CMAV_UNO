@@ -231,7 +231,7 @@ function Choice(_title, _index) constructor
 function dialogue_menu_draw_gui()
 {
 	//Draw textbox.
-	draw_roundrect_color(0, (room_height * 0.75) - 5, room_width, room_height - 10, c_white, c_white, false);
+	draw_roundrect_color(0, (room_height * 0.75) - 5, room_width, room_height, c_white, c_white, false);
 
 	//Draw text.
 	var _stringHeight = string_height(text);
