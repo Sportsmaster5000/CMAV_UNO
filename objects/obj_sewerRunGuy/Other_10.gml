@@ -6,7 +6,7 @@ _array[0] = "Gotta practice for the big game!";
 if (global.storyKeysCollected == false)
 {
 	var _array;
-	_array[0] = "I dropped my keys while I was past the Cinema. I think they fell down a sewer drain.";
+	_array[0] = "I dropped my keys while I was walking past the Cinema. I think they fell down a sewer drain.";
 	_array[1] = "I won't be able to start class without my keys."
 	global.storyKeysStart = true;
 	
