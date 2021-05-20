@@ -1,1 +1,0 @@
-view_camera[VIEW] = cam_create(id, CAMERA_WIDTH, CAMERA_HEIGHT, 1/2, 5/6, -1, -1, 5, 5, 0);
