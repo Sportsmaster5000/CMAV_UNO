@@ -35,8 +35,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "camera",
-    "path": "folders/Objects/camera.yy",
+    "name": "cutscene",
+    "path": "folders/Objects/cutscene.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_playerCutscene",

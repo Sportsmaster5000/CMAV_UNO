@@ -15,19 +15,27 @@ if (FACE_BUTTON_RELEASED)
 	{
 		case 0:
 			global.hours += 3;
-			transition_board(xTo, yTo, roomTo);
+			global.hp = global.maxHP;
+			global.pp = global.maxSP;
+			room_goto(room_sleepTransitionCutscene);
 		break;
 		case 1:
 			global.hours += 6;
-			transition_board(xTo, yTo, roomTo);
+			global.hp = global.maxHP
+			global.pp = global.maxSP;
+			room_goto(room_sleepTransitionCutscene);
 		break;
 		case 2:
 			global.hours += 12;
-			transition_board(xTo, yTo, roomTo);
+			global.hp = global.maxHP
+			global.pp = global.maxSP;
+			room_goto(room_sleepTransitionCutscene);
 		break;
 		case 3:
 			global.days++;
-			transition_board(xTo, yTo, roomTo);
+			global.hp = global.maxHP
+			global.pp = global.maxSP;
+			room_goto(room_sleepTransitionCutscene);
 		break;
 		case 4:
 			game_save(SAVEFILE);

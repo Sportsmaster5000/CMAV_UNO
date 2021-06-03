@@ -24,11 +24,14 @@ function transition_board(_xTo, _yTo, _roomTo)
 
 	show_debug_message("\nRoom to: " + room_get_name(_roomTo) + " X: " + string(_xTo) + "Y: " + string(_yTo));
 	
-	global.playerSpawnX = xTo;
-	global.playerSpawnY = yTo;
-	global.roomTo = roomTo;
+	global.playerSpawnX = _xTo;
+	global.playerSpawnY = _yTo;
+	global.roomTo = _roomTo;
 
 
+//Sets room as non-persistent
+	room_persistent = false;
+	
 	room_goto(global.roomTo)
 
 
