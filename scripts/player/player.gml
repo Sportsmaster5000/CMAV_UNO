@@ -328,7 +328,7 @@ function player_jump()
 /// @description melee attack controls. Returns true if a hurtbox was created, false if not.
 function player_melee() 
 {
-	if (B_BUTTON_RELEASED)
+	if (B_BUTTON_PRESSED)
 	{
 		
 		//Makes a melee hurtbox.

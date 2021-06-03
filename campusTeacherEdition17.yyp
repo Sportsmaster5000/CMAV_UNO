@@ -166,7 +166,6 @@
     {"id":{"name":"room_sleepTransitionCutscene","path":"rooms/room_sleepTransitionCutscene/room_sleepTransitionCutscene.yy",},"order":0,},
     {"id":{"name":"spr_portraitVincent","path":"sprites/spr_portraitVincent/spr_portraitVincent.yy",},"order":9,},
     {"id":{"name":"obj_tim","path":"objects/obj_tim/obj_tim.yy",},"order":12,},
-    {"id":{"name":"Sprite160","path":"sprites/Sprite160/Sprite160.yy",},"order":14,},
     {"id":{"name":"room_obstacleCourse","path":"rooms/room_obstacleCourse/room_obstacleCourse.yy",},"order":1,},
     {"id":{"name":"obj_coffeeCup","path":"objects/obj_coffeeCup/obj_coffeeCup.yy",},"order":1,},
     {"id":{"name":"message_create","path":"scripts/message_create/message_create.yy",},"order":8,},
