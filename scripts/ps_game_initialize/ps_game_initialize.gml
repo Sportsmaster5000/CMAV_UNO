@@ -17,4 +17,7 @@ function ps_game_initialize() {
 	//Initializes text settings.
 	draw_set_color(c_pink);
 	draw_set_font(ps_fnt_font);
+	
+	//Turn off interpolation.
+	gpu_set_texfilter(false);
 }
