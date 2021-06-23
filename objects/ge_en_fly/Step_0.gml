@@ -41,7 +41,7 @@ if(agro == 0)
 		/// @DnDParent : 3BC2F6C0
 		/// @DnDArgument : "imageind" ""
 		/// @DnDArgument : "spriteind" "spr_fly_2"
-		sprite_index = ge_spr_fly_2;
+		sprite_index = spr_fly_2;
 	}
 }
 

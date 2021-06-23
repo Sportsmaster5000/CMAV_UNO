@@ -4,7 +4,7 @@
 /// @DnDArgument : "var" "distance_to_object(obj_player_move)"
 /// @DnDArgument : "op" "4"
 /// @DnDArgument : "value" "700"
-if(distance_to_object(ge_obj_player_move) >= 700)
+if(distance_to_object(obj_player_move) >= 700)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

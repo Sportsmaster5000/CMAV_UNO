@@ -62,7 +62,7 @@ if(distance_to_object(ge_obj_player_move) <= 700)
 		/// @DnDHash : 017DE8F9
 		/// @DnDParent : 498AABEC
 		/// @DnDArgument : "spriteind" "spr_turret_2"
-		sprite_index = ge_spr_turret_2;
+		sprite_index = spr_turret_2;
 		image_index = 0;
 	}
 

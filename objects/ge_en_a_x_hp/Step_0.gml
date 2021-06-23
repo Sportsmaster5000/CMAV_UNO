@@ -3,8 +3,8 @@
 /// @DnDHash : 2433EE7B
 /// @DnDArgument : "x" "obj_player_move.x-600"
 /// @DnDArgument : "y" "obj_player_move.y-900"
-x = ge_obj_player_move.x-600;
-y = ge_obj_player_move.y-900;
+x = obj_player_move.x-600;
+y = obj_player_move.y-900;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

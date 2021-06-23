@@ -20,7 +20,7 @@ if(distance_to_object(ge_obj_player_move) <= 600)
 	/// @DnDParent : 12D0ED90
 	/// @DnDArgument : "x" "ge_bj_player_move.x"
 	/// @DnDArgument : "y" "ge_obj_player_move.y"
-	direction = point_direction(x, y, ge_obj_player_move.x, ge_obj_player_move.y);
+	direction = point_direction(x, y, ge_bj_player_move.x, ge_obj_player_move.y);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -62,7 +62,7 @@ if(distance_to_object(ge_obj_player_move) <= 600)
 		/// @DnDHash : 61E04DFA
 		/// @DnDParent : 0D128A4E
 		/// @DnDArgument : "spriteind" "ars_face_s"
-		sprite_index = ge_ars_face_s;
+		sprite_index = ars_face_s;
 		image_index = 0;
 	}
 
@@ -89,7 +89,7 @@ if(distance_to_object(ge_obj_player_move) <= 600)
 		/// @DnDHash : 366DFB29
 		/// @DnDParent : 0FF9717F
 		/// @DnDArgument : "spriteind" "ars_face"
-		sprite_index = ge_ars_face;
+		sprite_index = ars_face;
 		image_index = 0;
 	}
 }

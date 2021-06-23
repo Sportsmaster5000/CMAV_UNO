@@ -3,7 +3,7 @@
 /// @DnDHash : 26220F42
 /// @DnDArgument : "x" "obj_player_move.x"
 /// @DnDArgument : "y" "obj_player_move.y"
-direction = point_direction(x, y, ge_obj_player_move.x, ge_obj_player_move.y);
+direction = point_direction(x, y, obj_player_move.x, obj_player_move.y);
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1

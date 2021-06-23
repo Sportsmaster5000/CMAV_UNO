@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 32,
+  "gridY": 32,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"03ceba68-b3d5-4a20-9108-f4e44dfc4dc8","path":"sprites/bg_sewerFG/bg_sewerFG.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"03ceba68-b3d5-4a20-9108-f4e44dfc4dc8","path":"sprites/bg_sewerFG/bg_sewerFG.yy",},"LayerId":{"name":"5f0c5a2e-8451-4f66-83fb-c25d2df60f6c","path":"sprites/bg_sewerFG/bg_sewerFG.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5f0c5a2e-8451-4f66-83fb-c25d2df60f6c","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "background",
     "path": "folders/Sprites/background.yy",

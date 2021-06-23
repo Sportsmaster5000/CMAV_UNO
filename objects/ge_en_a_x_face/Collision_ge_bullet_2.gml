@@ -16,12 +16,12 @@ if(hp > 0)
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 3D6F1B85
-	/// @DnDApplyTo : {en_a_x_hp}
+	/// @DnDApplyTo : en_a_x_hp
 	/// @DnDParent : 00D7DDAD
 	/// @DnDArgument : "expr" "-14"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "boss_hp"
-	with(ge_en_a_x_hp) {
+	with(en_a_x_hp) {
 	boss_hp += -14;
 	
 	}

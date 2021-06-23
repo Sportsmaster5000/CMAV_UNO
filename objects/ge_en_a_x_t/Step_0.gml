@@ -4,7 +4,7 @@
 /// @DnDArgument : "var" "distance_to_object(obj_player_move)"
 /// @DnDArgument : "op" "3"
 /// @DnDArgument : "value" "1200"
-if(distance_to_object(ge_obj_player_move) <= 1200)
+if(distance_to_object(obj_player_move) <= 1200)
 {
 	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 	/// @DnDVersion : 1
@@ -12,7 +12,7 @@ if(distance_to_object(ge_obj_player_move) <= 1200)
 	/// @DnDParent : 3BC2F6C0
 	/// @DnDArgument : "x" "obj_player_move.x"
 	/// @DnDArgument : "y" "obj_player_move.y"
-	direction = point_direction(x, y, ge_obj_player_move.x, ge_obj_player_move.y);
+	direction = point_direction(x, y, obj_player_move.x, obj_player_move.y);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -28,7 +28,7 @@ if(distance_to_object(ge_obj_player_move) <= 1200)
 		/// @DnDParent : 498AABEC
 		/// @DnDArgument : "x" "obj_player_move.x"
 		/// @DnDArgument : "y" "obj_player_move.y"
-		direction = point_direction(x, y, ge_obj_player_move.x, ge_obj_player_move.y);
+		direction = point_direction(x, y, obj_player_move.x, obj_player_move.y);
 	
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1
@@ -54,7 +54,7 @@ if(distance_to_object(ge_obj_player_move) <= 1200)
 		/// @DnDHash : 017DE8F9
 		/// @DnDParent : 498AABEC
 		/// @DnDArgument : "spriteind" "spr_turret_2"
-		sprite_index = ge_spr_turret_2;
+		sprite_index = spr_turret_2;
 		image_index = 0;
 	}
 
@@ -81,7 +81,7 @@ if(distance_to_object(ge_obj_player_move) <= 1200)
 		/// @DnDHash : 521D31C3
 		/// @DnDParent : 314219F1
 		/// @DnDArgument : "spriteind" "spr_turret_1"
-		sprite_index = ge_spr_turret_1;
+		sprite_index = spr_turret_1;
 		image_index = 0;
 	}
 }
@@ -104,7 +104,7 @@ if(hp <= 0)
 	/// @DnDHash : 5BFFBC07
 	/// @DnDParent : 74F1ECBA
 	/// @DnDArgument : "soundid" "expo"
-	audio_play_sound(ge_expo, 0, 0);
+	audio_play_sound(expo, 0, 0);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1

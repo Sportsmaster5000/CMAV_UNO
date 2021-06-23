@@ -11,8 +11,8 @@ if(centered == true)
 	/// @DnDParent : 466E5424
 	/// @DnDArgument : "x" "obj_player_move.x"
 	/// @DnDArgument : "y" "obj_player_move.y-50"
-	x = ge_obj_player_move.x;
-	y = ge_obj_player_move.y-50;
+	x = obj_player_move.x;
+	y = obj_player_move.y-50;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -28,6 +28,6 @@ if(centered == false)
 	/// @DnDParent : 351E8E9F
 	/// @DnDArgument : "x" "obj_player_move.x"
 	/// @DnDArgument : "y" "obj_player_move.y-400"
-	x = ge_obj_player_move.x;
-	y = ge_obj_player_move.y-400;
+	x = obj_player_move.x;
+	y = obj_player_move.y-400;
 }

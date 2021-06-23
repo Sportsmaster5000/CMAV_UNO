@@ -3,8 +3,8 @@
 /// @DnDHash : 0C449AC2
 /// @DnDArgument : "x" "obj_player_move.x"
 /// @DnDArgument : "y" "obj_player_move.y"
-x = ge_obj_player_move.x;
-y = ge_obj_player_move.y;
+x = obj_player_move.x;
+y = obj_player_move.y;
 
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 /// @DnDVersion : 1
@@ -149,7 +149,7 @@ if(cooldown_gun <= 3)
 	/// @DnDHash : 142F154E
 	/// @DnDParent : 4DC7FF3C
 	/// @DnDArgument : "spriteind" "Sprite1"
-	sprite_index = ge_Sprite1;
+	sprite_index = Sprite1;
 	image_index = 0;
 }
 

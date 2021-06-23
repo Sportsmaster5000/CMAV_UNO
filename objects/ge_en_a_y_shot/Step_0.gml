@@ -4,7 +4,7 @@
 /// @DnDArgument : "var" "distance_to_object(obj_player_move)"
 /// @DnDArgument : "op" "3"
 /// @DnDArgument : "value" "700"
-if(distance_to_object(ge_obj_player_move) <= 700)
+if(distance_to_object(obj_player_move) <= 700)
 {
 	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 	/// @DnDVersion : 1
@@ -12,7 +12,7 @@ if(distance_to_object(ge_obj_player_move) <= 700)
 	/// @DnDParent : 12D0ED90
 	/// @DnDArgument : "x" "obj_player_move.x"
 	/// @DnDArgument : "y" "obj_player_move.y"
-	direction = point_direction(x, y, ge_obj_player_move.x, ge_obj_player_move.y);
+	direction = point_direction(x, y, obj_player_move.x, obj_player_move.y);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -28,7 +28,7 @@ if(distance_to_object(ge_obj_player_move) <= 700)
 		/// @DnDParent : 0D128A4E
 		/// @DnDArgument : "x" "obj_player_move.x"
 		/// @DnDArgument : "y" "obj_player_move.y"
-		direction = point_direction(x, y, ge_obj_player_move.x, ge_obj_player_move.y);
+		direction = point_direction(x, y, obj_player_move.x, obj_player_move.y);
 	
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1

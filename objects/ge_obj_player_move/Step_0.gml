@@ -27,8 +27,7 @@ if(faster == true)
 		/// @DnDHash : 649BEC5B
 		/// @DnDParent : 29E45BF7
 		/// @DnDArgument : "spriteind" "spr_player_move"
-		/// @DnDSaveInfo : "spriteind" "spr_player_move"
-		sprite_index = ge_spr_player_move;
+		sprite_index = spr_player_move;
 		image_index = 0;
 	}
 
@@ -55,8 +54,7 @@ if(faster == true)
 		/// @DnDParent : 3DE6915C
 		/// @DnDArgument : "imageind" "2"
 		/// @DnDArgument : "spriteind" "spr_player_move"
-		/// @DnDSaveInfo : "spriteind" "spr_player_move"
-		sprite_index = ge_spr_player_move;
+		sprite_index = spr_player_move;
 		image_index = 2;
 	}
 
@@ -83,8 +81,7 @@ if(faster == true)
 		/// @DnDParent : 5A62D64D
 		/// @DnDArgument : "imageind" "1"
 		/// @DnDArgument : "spriteind" "spr_player_move"
-		/// @DnDSaveInfo : "spriteind" "spr_player_move"
-		sprite_index = ge_spr_player_move;
+		sprite_index = spr_player_move;
 		image_index = 1;
 	}
 
@@ -111,8 +108,7 @@ if(faster == true)
 		/// @DnDParent : 2ED7D3C3
 		/// @DnDArgument : "imageind" "3"
 		/// @DnDArgument : "spriteind" "spr_player_move"
-		/// @DnDSaveInfo : "spriteind" "spr_player_move"
-		sprite_index = ge_spr_player_move;
+		sprite_index = spr_player_move;
 		image_index = 3;
 	}
 }
@@ -146,8 +142,7 @@ if(faster == false)
 		/// @DnDHash : 6A09BAAF
 		/// @DnDParent : 11E652B1
 		/// @DnDArgument : "spriteind" "spr_player_move"
-		/// @DnDSaveInfo : "spriteind" "spr_player_move"
-		sprite_index = ge_spr_player_move;
+		sprite_index = spr_player_move;
 		image_index = 0;
 	}
 
@@ -174,8 +169,7 @@ if(faster == false)
 		/// @DnDParent : 28B1C7EB
 		/// @DnDArgument : "imageind" "2"
 		/// @DnDArgument : "spriteind" "spr_player_move"
-		/// @DnDSaveInfo : "spriteind" "spr_player_move"
-		sprite_index = ge_spr_player_move;
+		sprite_index = spr_player_move;
 		image_index = 2;
 	}
 
@@ -202,8 +196,7 @@ if(faster == false)
 		/// @DnDParent : 2FA65153
 		/// @DnDArgument : "imageind" "1"
 		/// @DnDArgument : "spriteind" "spr_player_move"
-		/// @DnDSaveInfo : "spriteind" "spr_player_move"
-		sprite_index = ge_spr_player_move;
+		sprite_index = spr_player_move;
 		image_index = 1;
 	}
 
@@ -230,8 +223,7 @@ if(faster == false)
 		/// @DnDParent : 37B4B814
 		/// @DnDArgument : "imageind" "3"
 		/// @DnDArgument : "spriteind" "spr_player_move"
-		/// @DnDSaveInfo : "spriteind" "spr_player_move"
-		sprite_index = ge_spr_player_move;
+		sprite_index = spr_player_move;
 		image_index = 3;
 	}
 }

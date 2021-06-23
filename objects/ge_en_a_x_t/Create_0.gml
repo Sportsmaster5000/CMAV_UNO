@@ -9,7 +9,7 @@ cooldown_t = 0;
 /// @DnDHash : 1F786B6D
 /// @DnDArgument : "expr" "distance_to_object(obj_player_move)"
 /// @DnDArgument : "var" "distance"
-distance = distance_to_object(ge_obj_player_move);
+distance = distance_to_object(obj_player_move);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

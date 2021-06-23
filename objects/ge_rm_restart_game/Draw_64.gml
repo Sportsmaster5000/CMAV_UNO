@@ -2,8 +2,7 @@
 /// @DnDVersion : 1
 /// @DnDHash : 4CC620DA
 /// @DnDArgument : "font" "Font1"
-/// @DnDSaveInfo : "font" "Font1"
-draw_set_font(ge_Font1);
+draw_set_font(Font1);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
