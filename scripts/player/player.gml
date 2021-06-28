@@ -57,9 +57,6 @@ function player_create(_spriteIdle, _spriteRun, _spriteJump, _spriteMelee, _spri
 
 	//Dash duration. The player is dashing while this is > 0
 	dashDuration = 0;
-
-
-
 }
 
 

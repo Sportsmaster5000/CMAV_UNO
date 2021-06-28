@@ -10,7 +10,6 @@ if(hp <= 0)
 	/// @DnDHash : 2BF6A1FB
 	/// @DnDParent : 26D73DC2
 	/// @DnDArgument : "soundid" "ge_expo_core"
-	/// @DnDSaveInfo : "soundid" "ge_expo_core"
 	audio_play_sound(ge_expo_core, 0, 0);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
@@ -21,7 +20,6 @@ if(hp <= 0)
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "ge_obj_expo"
 	/// @DnDArgument : "layer" ""projectile""
-	/// @DnDSaveInfo : "objectid" "ge_obj_expo"
 	instance_create_layer(x + 0, y + 0, "projectile", ge_obj_expo);
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance

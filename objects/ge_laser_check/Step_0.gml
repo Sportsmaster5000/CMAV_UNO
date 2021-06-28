@@ -17,7 +17,6 @@ if(hp <= 0)
 	/// @DnDHash : 61FD2097
 	/// @DnDParent : 34B5F7CC
 	/// @DnDArgument : "spriteind" "ge_core_dead"
-	/// @DnDSaveInfo : "spriteind" "ge_core_dead"
 	sprite_index = ge_core_dead;
 	image_index = 0;
 }
