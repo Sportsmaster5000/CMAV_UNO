@@ -1,2 +1,0 @@
-ps_physics();
-
