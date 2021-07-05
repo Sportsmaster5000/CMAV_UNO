@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Projectiles can block other projectiles. 
 
 // Inherit the parent event.
 event_inherited();
