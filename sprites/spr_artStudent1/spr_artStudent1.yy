@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0af2ebe2-a22d-4ffa-9aa6-b12da7887eac","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "artstudent",
     "path": "folders/Sprites/npcs/artstudent.yy",

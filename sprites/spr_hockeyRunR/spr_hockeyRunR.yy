@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"22bf9db9-ff13-430e-8f1f-7ebdc87ae7f4","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "hockey player",
     "path": "folders/Sprites/npcs/hockey player.yy",

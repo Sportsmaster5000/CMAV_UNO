@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4aa5ba41-ea15-4143-b740-0703a9e0a96c","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "moveIcons",
     "path": "folders/Sprites/gui/moveIcons.yy",

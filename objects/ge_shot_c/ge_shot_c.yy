@@ -21,9 +21,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"ge_shot_c","path":"objects/ge_shot_c/ge_shot_c.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ge_obj_player_gun","path":"objects/ge_obj_player_gun/ge_obj_player_gun.yy",},"parent":{"name":"ge_shot_c","path":"objects/ge_shot_c/ge_shot_c.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ge_rm_proj_stop","path":"objects/ge_rm_proj_stop/ge_rm_proj_stop.yy",},"parent":{"name":"ge_shot_c","path":"objects/ge_shot_c/ge_shot_c.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ge_obj_player_gun","path":"objects/ge_obj_player_gun/ge_obj_player_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ge_rm_proj_stop","path":"objects/ge_rm_proj_stop/ge_rm_proj_stop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

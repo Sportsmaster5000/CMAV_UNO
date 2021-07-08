@@ -21,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ge_obj_player_move","path":"objects/ge_obj_player_move/ge_obj_player_move.yy",},"parent":{"name":"ge_rm_cont","path":"objects/ge_rm_cont/ge_rm_cont.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ge_obj_player_move","path":"objects/ge_obj_player_move/ge_obj_player_move.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

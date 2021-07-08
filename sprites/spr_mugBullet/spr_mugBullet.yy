@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8eff7b70-5a56-433f-8ac3-39c783d2f5a1","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "coffee guy",
     "path": "folders/Sprites/npcs/coffee guy.yy",
